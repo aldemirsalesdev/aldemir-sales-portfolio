@@ -5,7 +5,6 @@
 
 import { useState } from 'react';
 import { motion } from 'motion/react';
-import profilePhoto from './assets/profile-photo.png';
 import { 
   Github, 
   Linkedin, 
@@ -31,7 +30,7 @@ export default function App() {
           <div className="relative">
             <div className="w-32 h-32 border-2 border-border overflow-hidden bg-white/5">
               <img 
-                src={profilePhoto} 
+                src="/profile-photo.png" 
                 alt="Aldemir Sales" 
                 className="w-full h-full object-cover object-[center_10%] grayscale hover:grayscale-0 transition-all duration-500"
               />
