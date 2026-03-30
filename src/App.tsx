@@ -5,7 +5,6 @@
 
 import { useState } from 'react';
 import { motion } from 'motion/react';
-import foto from './assets/foto.png';
 import { 
   Github, 
   Linkedin, 
@@ -31,12 +30,9 @@ export default function App() {
           <div className="relative">
             <div className="w-32 h-32 border-2 border-border overflow-hidden bg-white/5">
               <img 
-                src={foto} 
+                src="/profile.png" 
                 alt="Aldemir Sales" 
                 className="w-full h-full object-cover object-[center_10%] grayscale hover:grayscale-0 transition-all duration-500"
-                onError={(e) => {
-                  (e.target as HTMLImageElement).src = "https://images.unsplash.com/photo-1511367461989-f85a21fda167?q=80&w=400&h=400&auto=format&fit=crop";
-                }}
                 referrerPolicy="no-referrer"
               />
             </div>
