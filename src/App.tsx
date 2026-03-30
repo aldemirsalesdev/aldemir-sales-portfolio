@@ -30,7 +30,7 @@ export default function App() {
           <div className="relative">
             <div className="w-32 h-32 border-2 border-border overflow-hidden bg-white/5">
               <img 
-                src="/foto.png" 
+                src="/me-profile.png?v=2" 
                 alt="Aldemir Sales" 
                 className="w-full h-full object-cover object-[center_10%] grayscale hover:grayscale-0 transition-all duration-500"
                 referrerPolicy="no-referrer"
