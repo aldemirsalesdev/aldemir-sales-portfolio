@@ -30,10 +30,12 @@ export default function App() {
           <div className="relative">
             <div className="w-32 h-32 border-2 border-border overflow-hidden bg-white/5">
               <img 
-                src="/me-profile.png?v=2" 
+                src="/avatar.png?v=10" 
                 alt="Aldemir Sales" 
+                onError={(e) => {
+                  (e.target as HTMLImageElement).src = "https://api.dicebear.com/7.x/avataaars/svg?seed=Aldemir";
+                }}
                 className="w-full h-full object-cover object-[center_10%] grayscale hover:grayscale-0 transition-all duration-500"
-                referrerPolicy="no-referrer"
               />
             </div>
             <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 bg-bg border border-border px-3 py-0.5 flex items-center gap-2">
