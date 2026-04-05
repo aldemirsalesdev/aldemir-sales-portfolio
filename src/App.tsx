@@ -23,7 +23,7 @@ export default function App() {
   const [activeTab, setActiveTab] = useState('about');
 
   return (
-    <div className="min-h-screen max-w-5xl mx-auto p-6 md:p-12 space-y-8">
+    <div className="min-h-screen max-w-5xl mx-auto p-4 md:p-12 space-y-8 overflow-x-hidden">
       {/* Header Section - Inspired by the first image but simplified */}
       <header className="grid grid-cols-1 lg:grid-cols-3 gap-6">
         <div className="lg:col-span-2 simple-card flex flex-col md:flex-row items-center md:items-start gap-8">
@@ -45,17 +45,17 @@ export default function App() {
           <div className="flex-1 space-y-4 text-center md:text-left">
             <div className="flex items-center justify-center md:justify-start gap-2 text-text-muted font-mono text-[10px] tracking-widest uppercase">
               <Terminal size={12} />
-              <span>Backend_Developer_In_Training</span>
+              <span>Backend_Developer_&_ADS_Student</span>
             </div>
             
-            <h1 className="text-4xl font-bold tracking-tight">
+            <h1 className="text-3xl md:text-4xl font-bold tracking-tight">
               <span className="text-text-muted/40">&lt;</span>
               <span>Aldemir Sales</span><span className="text-white animate-blink">|</span>
               <span className="text-text-muted/40">/&gt;</span>
             </h1>
 
             <p className="text-text-muted text-sm leading-relaxed max-w-md">
-              Desenvolvedor back-end em formação, focado em criar soluções eficientes, escaláveis e orientadas a boas práticas.
+              Desenvolvedor Back-end e estudante de ADS, focado em criar soluções eficientes, escaláveis e orientadas a boas práticas.
             </p>
 
             <div className="flex items-center justify-center md:justify-start gap-4 text-text-muted font-mono text-[10px]">
@@ -81,7 +81,7 @@ export default function App() {
       </header>
 
       {/* Navigation - Simplified tabs */}
-      <nav className="flex gap-8 border-b border-border font-mono text-xs">
+      <nav className="flex flex-wrap gap-4 md:gap-8 border-b border-border font-mono text-[10px] md:text-xs">
         {['about', 'experience', 'projects', 'contact'].map((tab) => (
           <button
             key={tab}
@@ -100,13 +100,13 @@ export default function App() {
       </nav>
 
       {/* Content Grid */}
-      <main className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-        <div className="lg:col-span-2 space-y-6">
+      <main className="grid grid-cols-1 lg:grid-cols-3 gap-6 items-start">
+        <div className="lg:col-span-2 space-y-6 w-full overflow-hidden">
           {activeTab === 'about' && (
             <motion.div 
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
-              className="space-y-6"
+              className="space-y-6 w-full"
             >
               {/* Skills */}
               <section className="simple-card space-y-6">
@@ -139,7 +139,7 @@ export default function App() {
             <motion.div 
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
-              className="space-y-6"
+              className="space-y-6 w-full"
             >
               <section className="simple-card space-y-6">
                 <h2 className="text-[10px] font-mono tracking-[0.3em] text-text-muted uppercase font-bold">Experience</h2>
@@ -173,7 +173,7 @@ export default function App() {
             <motion.div 
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
-              className="space-y-6"
+              className="space-y-6 w-full"
             >
               <section className="simple-card space-y-6 group hover:border-white/30 transition-colors">
                 <div className="flex justify-between items-start">
@@ -225,7 +225,7 @@ export default function App() {
             <motion.div 
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
-              className="space-y-6"
+              className="space-y-6 w-full"
             >
               <section className="simple-card space-y-6">
                 <h2 className="text-[10px] font-mono tracking-[0.3em] text-text-muted uppercase font-bold">Contact_Me</h2>
