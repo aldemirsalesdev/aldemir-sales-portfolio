@@ -1,7 +1,7 @@
 
 ---
 
-## 👨‍💻 Sobre o projeto
+## Sobre o projeto
 
 Este repositório está vinculado ao meu portfólio pessoal, desenvolvido com o objetivo de apresentar minhas habilidades, projetos e evolução na área de desenvolvimento, com foco em back-end.
 
@@ -15,7 +15,7 @@ Este repositório está vinculado ao meu portfólio pessoal, desenvolvido com o 
 
 ---
 
-## 🤖 Uso de Inteligência Artificial
+## Uso de Inteligência Artificial
 
 Durante o desenvolvimento deste projeto, utilizei ferramentas de Inteligência Artificial, como o Google AI Studio, como apoio no processo de construção.
 
@@ -39,7 +39,7 @@ Todo o código gerado foi revisado, adaptado e compreendido por mim, fazendo par
 
 ---
 
-## 🎯 Objetivo
+## Objetivo
 
 Este portfólio tem como objetivo:
 
@@ -50,7 +50,7 @@ Este portfólio tem como objetivo:
 
 ---
 
-## 📚 Atualmente estudando
+## 📚Atualmente estudando
 
 - Arquitetura de software
 - Desenvolvimento back-end escalável
@@ -61,17 +61,12 @@ Este portfólio tem como objetivo:
 
 ---
 
-## 📌 Observações
+## Observações
 
 Este projeto está em constante evolução, acompanhando meu desenvolvimento como programador.
 
 Novas melhorias, otimizações e funcionalidades serão implementadas ao longo do tempo.
 
----
-
-## 📫 Contato
-
-- Portfólio: https://aldemirdev.site
 
 ---
 
