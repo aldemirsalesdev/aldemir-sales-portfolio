@@ -17,8 +17,6 @@ import {
   ExternalLink
 } from 'lucide-react';
 
-const SKILLS = ['Python', 'GitHub', 'Automation'];
-
 export default function App() {
   const [activeTab, setActiveTab] = useState('about');
 
@@ -108,16 +106,16 @@ export default function App() {
               animate={{ opacity: 1, y: 0 }}
               className="space-y-6 w-full"
             >
-              {/* Skills */}
+              {/* Studying */}
               <section className="simple-card space-y-6">
-                <h2 className="text-[10px] font-mono tracking-[0.3em] text-text-muted uppercase font-bold">Skills</h2>
+                <h2 className="text-[10px] font-mono tracking-[0.3em] text-text-muted uppercase font-bold">Studying</h2>
                 <div className="flex flex-wrap gap-2">
-                  {SKILLS.map((skill) => (
+                  {['Python', 'GitHub', 'Workflow automation n8n', 'AWS'].map((item) => (
                     <div 
-                      key={skill}
+                      key={item}
                       className="px-3 py-1.5 bg-white/5 border border-border font-mono text-[11px] text-text-muted hover:text-white transition-colors"
                     >
-                      {skill}
+                      {item}
                     </div>
                   ))}
                 </div>
